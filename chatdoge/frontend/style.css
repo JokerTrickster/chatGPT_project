@@ -1,0 +1,53 @@
+/* ChatDoge frontend styles */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.chat-container{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius:10px;
+}
+
+.chat-bubble{
+    background-color: #f1f1f1;
+    padding:10px;
+    margin-bottom:10px;
+    border-radius:10px;
+}
+
+.user-bubble{
+    background-color:#e2f7fd;
+    text-align: right;
+}
+
+.bot-bubble{
+    background-color:#f7e2e2;
+    text-align: left;
+}
+.chat-input{
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.send-button{
+    padding: 8px 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+.intro-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+#loader{
+    font-size:25px;
+    text-align:center;
+}
